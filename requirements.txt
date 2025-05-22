@@ -1,0 +1,22 @@
+# Core dependencies
+numpy>=1.20.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+mplcursors>=0.4
+
+# Audio processing
+librosa>=0.9.0
+
+# Database
+sqlite3
+
+# Deep learning
+torch>=2.0.0+cu118  # CUDA 11.8 enabled PyTorch
+torchaudio>=2.0.0+cu118
+
+# Audio embeddings model
+muq>=0.1.0  # MuQMuLan library
+
+# File handling and utilities
+tqdm>=4.62.0
+pyyaml>=6.0
